@@ -1,7 +1,15 @@
 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
     .card {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      
       .card-image {
-        width: 200px;
+        width: 400px;
       }
     }
   }
