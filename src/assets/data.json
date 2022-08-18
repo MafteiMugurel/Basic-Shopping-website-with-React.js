@@ -1,0 +1,31 @@
+[
+  {
+    "image": "https://ssang.ro/wp-content/uploads/2020/02/tivoli-frontpage-e1583062292694.jpg",
+    "name": "Tivoli",
+    "price": "15.590"
+  },
+
+  {
+    "image": "https://ssang.ro/wp-content/uploads/2021/12/tivoli-grand-WHITE.jpg",
+    "name": "TIVOLI GRAND",
+    "price": "16.990"
+  },
+
+  {
+    "image": "https://ssang.ro/wp-content/uploads/2020/02/korando-frontpage-e1583062254385.jpg",
+    "name": "Korando",
+    "price": "19.990"
+  },
+
+  {
+    "image": "https://ssang.ro/wp-content/uploads/2021/04/rexton-modele-2.jpg",
+    "name": "Rexton",
+    "price": "37.490"
+  },
+
+  {
+    "image": "https://ssang.ro/wp-content/uploads/2021/07/musso-grand-2021.jpg",
+    "name": "Musso Grand",
+    "price": "29.990"
+  }
+]
