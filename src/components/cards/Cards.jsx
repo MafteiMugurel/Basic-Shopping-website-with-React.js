@@ -1,5 +1,6 @@
 import "./Cards.scss";
 import cars from "../../assets/data.json";
+import Card from "../card/Card";
 const Cards = () => {
   
   return (
@@ -7,16 +8,7 @@ const Cards = () => {
       <div className="cards">
         {cars.map((carObject) => {
          return (
-         <div className="card">
-            <img
-              src={carObject.image}
-              alt={carObject.name}
-              className="card-image"
-            />
-            <div className="card-title">{carObject.name}</div>
-            <div className="card-price">{carObject.price} $</div>
-            <button className="card-button">Add to card</button>
-          </div>
+         <Card cardInfo={carObject}/>
           )
         })}
       </div>
