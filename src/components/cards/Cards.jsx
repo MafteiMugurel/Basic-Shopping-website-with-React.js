@@ -6,7 +6,9 @@ const Cards = (props) => {
     <>
       <div className="cards">
         {cars
-          .filter((car) => car.name.toLowerCase().includes(props.searchByName.toLowerCase()))
+          .filter((car) =>
+            car.name.toLowerCase().includes(props.searchByName.toLowerCase())
+          )
           .map((carObject) => {
             return <Card cardInfo={carObject} />;
           })}

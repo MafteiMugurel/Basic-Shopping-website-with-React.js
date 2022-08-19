@@ -5,7 +5,11 @@ const Search = (props) => {
     <>
       <div className="search-bar">
         <img src="" alt="searchicon" className="search-icon" />
-        <input type="text" className="search-imput" onChange={() => props.childToParent(event.target.value)}></input>
+        <input
+          type="text"
+          className="search-imput"
+          onChange={() => props.childToParent(event.target.value)}
+        ></input>
       </div>
     </>
   );
