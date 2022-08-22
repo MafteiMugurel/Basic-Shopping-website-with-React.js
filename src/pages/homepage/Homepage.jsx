@@ -1,7 +1,7 @@
-import "./Homepage.scss";
-import Cards from "../../components/cards/Cards";
-import Search from "../../components/search/Search";
 import { useState } from "react";
+import Search from "../../components/search/Search";
+import Cards from "../../components/cards/Cards";
+import "./Homepage.scss";
 
 const Homepage = () => {
   const [name, setData] = useState("");

@@ -1,9 +1,10 @@
-import "./App.scss";
+import React from "react";
+import Cart from "./pages/cart/Cart";
+import { Routes, Route } from "react-router-dom";
 import Nav from "./components/nav/Nav";
 import Homepage from "./pages/homepage/Homepage";
-import { Routes, Route } from "react-router-dom";
-import Cart from "./pages/cart/Cart";
-import React from "react";
+import "./App.scss";
+
 const CartListContext = React.createContext();
 
 const App = () => {

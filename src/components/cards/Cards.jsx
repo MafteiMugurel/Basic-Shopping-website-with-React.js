@@ -1,6 +1,7 @@
-import "./Cards.scss";
 import cars from "../../assets/data.json";
 import Card from "../card/Card";
+import "./Cards.scss";
+
 const Cards = (props) => {
   return (
     <>
