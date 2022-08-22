@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import "./Nav.scss";
-
+import logo from "../../assets/logo.jpg";
+import cartimage from "../../assets/cart-icon.png";
 const Nav = () => {
   return (
     <>
       <div className="nav">
-        <div className="logo">
-          <img src="require('../../assets/logo.jpg')" alt="Image" />
-        </div>
         <Link to="/">
-          <div className="title">Car Dealer</div>
+          <div className="logo">
+            <img src={logo} className="image-logo" alt="Image" />
+          </div>
         </Link>
         <Link to="cart">
-          <div className="cart">Cart</div>
+          <div className="cart">
+            <img src={cartimage} alt="" />
+          </div>
         </Link>
       </div>
     </>

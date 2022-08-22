@@ -3,10 +3,10 @@
   flex-flow: row;
   justify-content: space-around;
   background-color: lightgreen;
-  .title {
-    color: forestgreen;
-    font-size: 40px;
-    font-weight: bold;
+  .logo {
+    .image-logo {
+      width: 100px;
+    }
   }
   .cart {
     color: green;
