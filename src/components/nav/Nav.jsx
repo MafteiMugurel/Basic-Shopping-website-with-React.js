@@ -1,11 +1,15 @@
-import "./Nav.scss";
 import { Link } from "react-router-dom";
+import "./Nav.scss";
+
 const Nav = () => {
   return (
     <>
       <div className="nav">
+        <div className="logo">
+          <img src={require("../../assets")} alt="Image" />
+        </div>
         <Link to="/">
-          <div className="title">Auto Rulate</div>
+          <div className="title">Car Dealer</div>
         </Link>
         <Link to="cart">
           <div className="cart">Cart</div>
