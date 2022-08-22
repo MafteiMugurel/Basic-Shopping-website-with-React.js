@@ -6,7 +6,7 @@ const Nav = () => {
     <>
       <div className="nav">
         <div className="logo">
-          <img src={require("../../assets")} alt="Image" />
+          <img src="require('../../assets/logo.jpg')" alt="Image" />
         </div>
         <Link to="/">
           <div className="title">Car Dealer</div>
