@@ -1,4 +1,4 @@
-import { CartState } from "../../contexts/cartContext";
+import { CartState } from "../../context/cartContext";
 import "./Cart.scss";
 
 const Cart = () => {
