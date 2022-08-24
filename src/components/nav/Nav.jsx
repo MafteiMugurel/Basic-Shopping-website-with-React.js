@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Nav.scss";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 import cartimage from "../../assets/cart-icon.png";
 import { CartState } from "../../context/cartContext";
 
@@ -16,8 +16,8 @@ const Nav = () => {
         </Link>
         <Link to="cart">
           <div className="cart">
-            <img src={cartimage} alt="" />
-            <div className="cart-counter">({numberOfItems})</div>
+            <img className="cart-logo" src={cartimage} alt="" />
+            <div className="cart-counter">{numberOfItems}</div>
           </div>
         </Link>
       </div>
