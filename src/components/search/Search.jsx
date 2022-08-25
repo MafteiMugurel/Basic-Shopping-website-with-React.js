@@ -8,6 +8,7 @@ const Search = (props) => {
         <img src={SearchImage} alt="searchicon" className="search-icon" />
         <input
           type="text"
+          placeholder="Search"
           className="search-imput"
           onChange={() => {
             props.childToParent(event.target.value);

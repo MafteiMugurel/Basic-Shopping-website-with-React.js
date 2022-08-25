@@ -1,56 +1,55 @@
 [
   {
     "image": "https://ssang.ro/wp-content/uploads/2020/02/tivoli-frontpage-e1583062292694.jpg",
-    "name": "Tivoli",
+    "name": "SsangYong Tivoli",
     "price": "15.590"
   },
 
   {
     "image": "https://ssang.ro/wp-content/uploads/2021/12/tivoli-grand-WHITE.jpg",
-    "name": "TIVOLI GRAND",
+    "name": "SsangYong Tivoli Grand",
     "price": "16.990"
   },
 
   {
     "image": "https://ssang.ro/wp-content/uploads/2020/02/korando-frontpage-e1583062254385.jpg",
-    "name": "Korando",
+    "name": "SsangYong Korando",
     "price": "19.990"
   },
 
   {
     "image": "https://ssang.ro/wp-content/uploads/2021/04/rexton-modele-2.jpg",
-    "name": "Rexton",
+    "name": "SsangYong Rexton",
     "price": "37.490"
   },
 
   {
     "image": "https://ssang.ro/wp-content/uploads/2021/07/musso-grand-2021.jpg",
-    "name": "Musso Grand",
+    "name": "SsangYong Musso Grand",
     "price": "29.990"
   },
 
   {
     "image": "https://www.dodge.com/mediaserver/iris?client=FCAUS&market=U&brand=D&vehicle=2022_LD&paint=PCD&fabric=&sa=LDDT48,2DZ,27Z,APA&pov=fronthero&width=300&height=200&bkgnd=transparent&resp=png&x=&y=&w=&h=&width=300",
-    "name": "Charger",
+    "name": "Dodge Charger",
     "price": "32.500"
   },
 
   {
     "image": "https://www.dodge.com/mediaserver/iris?client=FCAUS&market=U&brand=D&vehicle=2022_LA&paint=PFQ&fabric=&sa=LADR22,2JQ,27Q,APA&pov=fronthero&width=300&height=200&bkgnd=transparent&resp=png&x=&y=&w=&h=&width=300",
-    "name": "Challenger",
+    "name": "Dodge Challenger",
     "price": "30.825"
   },
 
   {
     "image": "https://www.dodge.com/mediaserver/iris?client=FCAUS&market=U&brand=D&vehicle=2022_WD&paint=PDN&fabric=&sa=WDEX75,2TL,29L,APA,AGC&pov=fronthero&width=300&height=200&bkgnd=transparent&resp=png&x=&y=&w=&h=&width=300",
-    "name": "Durango",
+    "name": "Dodge Durango",
     "price": "37.760"
   },
 
   {
     "image": "https://www.dodge.com/mediaserver/iris?client=FCAUS&market=U&brand=R&vehicle=2021_DT&paint=PR4&fabric=&sa=DT6S98,2TY,29Y,APA&pov=fronthero&width=300&height=200&bkgnd=transparent&resp=png&x=&y=&w=&h=&width=300",
-    "name": "Ram Truck",
+    "name": "Dodge Ram Truck",
     "price": "47.780"
   }
-
 ]
