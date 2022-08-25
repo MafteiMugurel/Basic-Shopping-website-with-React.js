@@ -9,7 +9,7 @@ const Cart = () => {
 
   return (
     <>
-      <div>
+      <div className="cart-page">
         {cartItems.map((cartItem) => {
           return <CartItem cardInfo={cartItem} />;
         })}
